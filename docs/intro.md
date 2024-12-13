@@ -1,11 +1,10 @@
 ---
 slug: /
 sidebar_position: 1
-title: Goliath Bot Documentation
 description: Official documentation for the Goliath Discord Bot.
 ---
 
-# Goliath
+# Getting Started
 
 A multi-purpose Discord bot packed with various features to improve your server.
 

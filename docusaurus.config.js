@@ -60,7 +60,8 @@ const config = {
       image: 'https://goliath.bot/assets/goliath_96_98.png',
       metadata: [
         { name: "keywords", content: "Goliath, Goliath Bot, Goliath Discord Bot, Goliath Discord, Discord Bot" },
-        { name: "theme-color", content: "#0F3F17" }
+        { name: "theme-color", content: "#0F3F17" },
+        { name: "twitter:card", content: "summary" }
       ],
       navbar: {
         title: 'Goliath Bot Documentation',
