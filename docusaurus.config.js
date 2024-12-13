@@ -99,6 +99,11 @@ const config = {
         defaultMode: 'dark',
         disableSwitch: true,
         respectPrefersColorScheme: false
+      },
+      algolia: {
+        appId: '25AZFCHE3V',
+        apiKey: 'f0ff7f885585dfdfc5d3a0f7171bc1a1',
+        indexName: 'goliath'
       }
     })
 };
