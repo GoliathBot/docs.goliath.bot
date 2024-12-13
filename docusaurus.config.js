@@ -57,7 +57,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'https://goliath.bot/assets/goliath.png',
+      image: 'https://goliath.bot/assets/goliath_96_98.png',
+      metadata: [
+        { name: "keywords", content: "Goliath, Goliath Bot, Goliath Discord Bot, Goliath Discord, Discord Bot" },
+        { name: "theme-color", content: "#0F3F17" }
+      ],
       navbar: {
         title: 'Goliath Bot Documentation',
         items: [
