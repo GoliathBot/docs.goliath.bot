@@ -1,0 +1,77 @@
+/* This is horribly thrown together CSS but for the most part it works. */
+
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #15803d, #22c55e, #14532d);
+}
+
+.theme-doc-toc-mobile, .breadcrumbs__item--active .breadcrumbs__link, .breadcrumbs__item:hover .breadcrumbs__link {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.navbar--fixed-top:not(.navbar-sidebar--show), .navbar-sidebar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(10, 10, 10, 0.5);
+}
+
+a:not(.hash-link) {
+  text-decoration: none !important;
+}
+
+a:hover, .navbar-sidebar__back:hover, [class*="--active"], .hash-link, .breadcrumbs__link:not(a), .theme-edit-this-page, .pagination-nav__label {
+  color: #22c55e !important;
+}
+
+a:not([class]) {
+  color: #22c55e;
+  position: relative;
+}
+
+a:not([class])::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  transform-origin: right;
+  transform: scaleX(0);
+  background-color: #22c55e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: transform 300ms;
+}
+
+a:not([class]):hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#__docusaurus {
+  background-image: linear-gradient(to bottom, rgb(19, 20, 24), black);
+}
+
+:root {
+  --ifm-color-primary: #22c55e;
+  --ifm-color-primary-dark: #22c55e;
+  --ifm-color-primary-darker: #22c55e;
+  --ifm-color-primary-darkest: #22c55e;
+  --ifm-color-primary-light: #22c55e;
+  --ifm-color-primary-lighter: #22c55e;
+  --ifm-color-primary-lightest: #22c55e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
