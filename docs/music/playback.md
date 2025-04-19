@@ -61,3 +61,6 @@ You can skip to a specific song in the queue by running the `/skipto <song>` com
 :::info
 The `/skipto` command autocompletes all of the songs in the queue, you can skip to a song in the queue by clicking on it in the autocomplete list.
 :::
+
+## /volume
+You can change the volume by running the `/volume <volume>` command and typing in the volume you want to change to.
