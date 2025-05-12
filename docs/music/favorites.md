@@ -1,4 +1,5 @@
 # Favoriting Tracks
+Commands for adding and removing tracks from your favorites.
 
 :::warning[Work in Progress]
 This feature is still in beta testing and may have bugs.
