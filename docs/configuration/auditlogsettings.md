@@ -5,13 +5,13 @@ sidebar_position: 2
 # Audit Log Settings
 Configuration for guild audit log messages.
 
-## /auditlogsettings memberjoinleave
-You can have a message be sent to the **Audit Member Join/Leave Channel** when a member joins or leaves the server, this is disabled by default and gets enabled when a channel is selected.
+## /auditlogsettings memberupdates
+You can have a message be sent to the **Audit Member Updates Channel** when a member joins/leaves the server, changes their nickname, or changes their server avatar, this is disabled by default and gets enabled when a channel is selected.
 
 :::info
 Green is shown for joins, red is shown when a member leaves.
 
-![Messages shown in the Audit Member Join/Leave Channel](./img/member_joined.png)
+![Messages shown in the Audit Member Updates Channel](./img/member_joined.png)
 :::
 
 ## /auditlogsettings punishments
