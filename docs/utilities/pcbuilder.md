@@ -6,7 +6,11 @@ You can get a PC build recommendation by running the `/pcbuilder` command and ty
 
 ![PC Builder Command Usage](./img/pc_builder_command.gif)
 
-### Type
+:::info
+Sometimes there might not be results for your preferences. If this is the case, you can try changing the preferences and try again.
+:::
+
+<!-- ### Type
 You can choose between a `PC for Gaming` or `PC for Graphic Design`.
 
 ### Budget
@@ -33,4 +37,4 @@ You can choose between `8GB`, `16GB`, or `32GB` worth of RAM.
 You can choose between `DDR4` or `DDR5` RAM.
 
 ### Cooling
-You can choose between `Air Cooling` or `Liquid Cooling`.
+You can choose between `Air Cooling` or `Liquid Cooling`. -->
