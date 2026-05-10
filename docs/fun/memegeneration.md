@@ -5,6 +5,13 @@ sidebar_position: 3
 # Meme Generation Commands
 Commands for generating memes.
 
+## /avatar
+The `/avatar` command will generate a meme with Lyle from the movie Avatar and your inputted text.
+
+:::info[Example]
+![Avatar Meme](./img/avatar.png)
+:::
+
 ## /cursedminion
 The `/cursedminion` command will generate a meme with a cursed minion and your inputted text.
 
